@@ -35,4 +35,4 @@ Tracking my journey from mechanical engineering into cybersecurity, with the goa
 ---
 
 ## 🔗 CISSP Domain Map
-Check out [`cissp_domain_map.md`](./cissp_domain_map.md) to see how my learning connects to the certification domains.
+Check out [`cissp_domain_map.md`](docs/cissp_domain_map.md) to see how my learning connects to the certification domains.
