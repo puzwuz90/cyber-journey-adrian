@@ -19,6 +19,10 @@ Tracking my journey from mechanical engineering into cybersecurity, with the goa
 
 ---
 
+[View Timeline](docs/learning_timeline.md)
+
+---
+
 ## 📚 Resources
 - [TryHackMe Profile](https://tryhackme.com/)
 - [Google Cybersecurity Certificate](https://www.coursera.org/professional-certificates/google-cybersecurity)
