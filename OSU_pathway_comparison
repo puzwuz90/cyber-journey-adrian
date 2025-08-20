@@ -1,0 +1,118 @@
+# 📚 OSU Pathway Comparison
+
+This document compares two potential education paths at Oregon State University Ecampus, paced at **$7,000/year** budget starting **Fall 2025**:
+
+- 🧩 Cybersecurity Certificate Path ($416/credit → $1,664 per 4-credit course)  
+- 🎓 CS Double Degree BS Path ($605/credit → $2,420 per 4-credit course)  
+
+---
+
+# 🧩 Cybersecurity Certificate Path (Paced at ~$7k/year)
+
+**Tuition rate:** $416/credit → $1,664 per 4-credit course  
+**Total: ~60 credits (15 courses)**  
+
+### 📅 2025
+| Term | Course | Title         | Credits | Tuition | Cumulative Tuition |
+|------|--------|---------------|---------|---------|---------------------|
+| Fall | CS 161 | Intro to CS I | 4       | $1,664  | $1,664 |
+
+### 📅 2026
+| Term  | Course  | Title                 | Credits | Tuition | Cumulative Tuition |
+|-------|---------|----------------------|---------|---------|---------------------|
+| Fall  | CS 162  | Intro to CS II        | 4       | $1,664  | $3,328 |
+| Winter| MTH 231 | Discrete Math         | 4       | $1,664  | $4,992 |
+| Spring| CS 271  | Computer Architecture | 4       | $1,664  | $6,656 |
+
+### 📅 2027
+| Term  | Course  | Title              | Credits | Tuition | Cumulative Tuition |
+|-------|---------|-------------------|---------|---------|---------------------|
+| Fall  | CS 261  | Data Structures   | 4       | $1,664  | $8,320 |
+| Winter| CS 340  | Databases         | 4       | $1,664  | $9,984 |
+| Spring| CS 374  | Operating Systems | 4       | $1,664  | $11,648 |
+
+### 📅 2028
+| Term  | Course  | Title                    | Credits | Tuition | Cumulative Tuition |
+|-------|---------|-------------------------|---------|---------|---------------------|
+| Fall  | CS 372  | Computer Networks        | 4       | $1,664  | $13,312 |
+| Winter| CS 370  | Intro to Security        | 4       | $1,664  | $14,976 |
+| Spring| CS 373  | Defense Against the Dark Arts | 4 | $1,664 | $16,640 |
+
+### 📅 2029
+| Term  | Course  | Title             | Credits | Tuition | Cumulative Tuition |
+|-------|---------|------------------|---------|---------|---------------------|
+| Fall  | CS 427  | Cryptography      | 4       | $1,664  | $18,304 |
+| Winter| CS 473  | Digital Forensics | 4       | $1,664  | $19,968 |
+| Spring| CS 478  | Network Security  | 4       | $1,664  | $21,632 |
+
+### 📅 2030
+| Term  | Course  | Title               | Credits | Tuition | Cumulative Tuition |
+|-------|---------|--------------------|---------|---------|---------------------|
+| Fall  | BIS 482 | InfoSec Governance | 4       | $1,664  | $23,296 |
+| Winter| Elective| Cyber Elective     | 4       | $1,664  | $24,960 |
+
+**🎯 Completion Estimate:** Spring 2030  
+
+---
+
+# 🎓 CS Double Degree BS Path (Paced at ~$7k/year)
+
+**Tuition rate:** $605/credit → $2,420 per 4-credit course  
+**Total: ~56 credits (14 courses)**  
+
+### 📅 2025
+| Term | Course | Title         | Credits | Tuition | Cumulative Tuition |
+|------|--------|---------------|---------|---------|---------------------|
+| Fall | CS 161 | Intro to CS I | 4       | $2,420  | $2,420 |
+
+### 📅 2026
+| Term  | Course  | Title                 | Credits | Tuition | Cumulative Tuition |
+|-------|---------|----------------------|---------|---------|---------------------|
+| Fall  | CS 162  | Intro to CS II        | 4       | $2,420  | $4,840 |
+| Winter| MTH 231 | Discrete Math         | 4       | $2,420  | $7,260 |
+
+### 📅 2027
+| Term  | Course  | Title                 | Credits | Tuition | Cumulative Tuition |
+|-------|---------|----------------------|---------|---------|---------------------|
+| Fall  | CS 271  | Computer Architecture | 4       | $2,420  | $9,680 |
+| Winter| CS 261  | Data Structures       | 4       | $2,420  | $12,100 |
+
+### 📅 2028
+| Term  | Course  | Title                 | Credits | Tuition | Cumulative Tuition |
+|-------|---------|----------------------|---------|---------|---------------------|
+| Fall  | CS 290  | Web Development       | 4       | $2,420  | $14,520 |
+| Winter| CS 325  | Analysis of Algorithms| 4       | $2,420  | $16,940 |
+
+### 📅 2029
+| Term  | Course  | Title             | Credits | Tuition | Cumulative Tuition |
+|-------|---------|------------------|---------|---------|---------------------|
+| Fall  | CS 340  | Databases        | 4       | $2,420  | $19,360 |
+| Winter| CS 361  | Software Eng. I  | 4       | $2,420  | $21,780 |
+
+### 📅 2030
+| Term  | Course  | Title             | Credits | Tuition | Cumulative Tuition |
+|-------|---------|------------------|---------|---------|---------------------|
+| Fall  | CS 362  | Software Eng. II | 4       | $2,420  | $24,200 |
+| Winter| CS 374  | Operating Systems| 4       | $2,420  | $26,620 |
+
+### 📅 2031
+| Term  | Course  | Title             | Credits | Tuition | Cumulative Tuition |
+|-------|---------|------------------|---------|---------|---------------------|
+| Fall  | CS 467  | Capstone Project | 4       | $2,420  | $29,040 |
+| Winter| Elective1 | Restricted Elective | 4  | $2,420  | $31,460 |
+
+### 📅 2032
+| Term  | Course   | Title              | Credits | Tuition | Cumulative Tuition |
+|-------|----------|-------------------|---------|---------|---------------------|
+| Fall  | Elective2| Restricted Elective| 4      | $2,420  | $33,880 |
+
+**🎯 Completion Estimate:** Fall 2032  
+
+---
+
+# 📝 Notes
+- Both pathways are paced at ~$7k/year to avoid overspending budget.  
+- Certificate completes in ~5 years (2030), BS completes in ~7 years (2032).  
+- Sequence assumes standard prerequisites; advisor input is needed for confirmation.  
+- Fees, books, and term availability not included.  
+
