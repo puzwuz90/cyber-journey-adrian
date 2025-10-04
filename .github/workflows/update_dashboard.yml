@@ -5,6 +5,7 @@ on:
     paths:
       - 'math208_ND.md'
       - 'cs161_OSU.md'
+  workflow_dispatch:
 
 jobs:
   update-summary:
