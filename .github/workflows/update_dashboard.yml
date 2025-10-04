@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add coursework_dashboard.md
+          git add cs_courses/coursework_dashboard.md
           git commit -m 'Auto-update coursework dashboard' || echo "No changes to commit"
           git push
