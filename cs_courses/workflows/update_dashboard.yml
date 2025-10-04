@@ -1,0 +1,32 @@
+name: Update Coursework Dashboard
+
+on:
+  push:
+    paths:
+      - 'math208_ND.md'
+      - 'cs161_OSU.md'
+
+jobs:
+  update-summary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run summary update script
+        run: |
+          python update_dashboard.py
+
+      - name: Commit updated summary
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add coursework_summary.md
+          git commit -m 'Auto-update coursework summary'
+          git push
