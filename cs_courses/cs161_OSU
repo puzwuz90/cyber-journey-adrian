@@ -14,12 +14,12 @@
 
 | Date       | Task                        | Status |
 |------------|-----------------------------|--------|
-| Oct 1      | Assignment 1                | [ ]    |
-| Oct 1      | Quiz 1                      | [ ]    |
-| Oct 8      | Assignment 2                | [ ]    |
-| Oct 8      | Quiz 2                      | [ ]    |
-| Oct 15     | Assignment 3                | [ ]    |
-| Oct 15     | Quiz 3                      | [ ]    |
+| Oct 1      | Assignment 1                | [x]    |
+| Oct 1      | Quiz 1                      | [x]    |
+| Oct 8      | Assignment 2                | [x]    |
+| Oct 8      | Quiz 2                      | [x]    |
+| Oct 15     | Assignment 3                | [x]    |
+| Oct 15     | Quiz 3                      | [x]    |
 | Oct 22     | Assignment 4                | [ ]    |
 | Oct 22     | Quiz 4                      | [ ]    |
 | Oct 29     | Assignment 5                | [ ]    |
