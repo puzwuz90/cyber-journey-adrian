@@ -17,8 +17,8 @@ def count_progress_and_next(file_path):
 
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
-            # Match table rows with: | Date | Task | [ ] |
-            match = re.search(r'\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*(\[\s?[x ]\s?\])', line, re.IGNORECASE)
+            # Match: | Date | Task | [ ] |
+            match = re.search(r'\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*(\[[xX ]\])', line)
             if match:
                 total += 1
                 date_str, task, status = match.groups()
@@ -26,19 +26,16 @@ def count_progress_and_next(file_path):
                 if 'x' in status.lower():
                     completed += 1
                 else:
-                    # Try to parse date in format like "Oct 5", "Nov 19", "Dec 3"
                     try:
-                        # Add current year (adjust if rolling year is needed)
                         due_date = datetime.strptime(date_str.strip() + " 2025", "%b %d %Y")
+                        if next_due is None or due_date < next_due[0]:
+                            next_due = (due_date, task.strip())
                     except ValueError:
-                        # If can't parse, just skip this row for next due
                         continue
-
-                    if next_due is None or due_date < next_due[0]:
-                        next_due = (due_date, task.strip())
 
     percent = round((completed / total) * 100, 1) if total > 0 else 0.0
     return total, completed, percent, next_due
+
 
 progress_data = []
 for course_file in course_files:
