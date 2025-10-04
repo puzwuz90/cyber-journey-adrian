@@ -2,8 +2,12 @@ import os
 import re
 from datetime import datetime
 
-course_files = ['math208_ND.md', 'cs161_OSU.md']
-summary_file = 'coursework_dashboard.md'
+course_files = [
+    'cs_courses/math208_ND.md',
+    'cs_courses/cs161_OSU.md'
+]
+summary_file = 'cs_courses/coursework_dashboard.md'
+
 
 course_map = {
     "cs161 osu": "CS 161 (OSU)",
