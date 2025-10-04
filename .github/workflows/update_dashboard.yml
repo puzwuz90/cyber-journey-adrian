@@ -23,7 +23,7 @@ jobs:
           python-version: '3.x'
 
       - name: Run summary update script
-        run: python update_dashboard.py
+        run: python cs_courses/update_dashboard.py
 
       - name: Commit updated dashboard
         run: |
