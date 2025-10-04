@@ -18,7 +18,7 @@ def count_progress_and_next(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
             # Match table rows with: | Date | Task | [ ] |
-            match = re.match(r'\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*(\[\s?x?\s?\])\s*\|', line, re.IGNORECASE)
+            match = re.search(r'\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*(\[\s?[x ]\s?\])', line, re.IGNORECASE)
             if match:
                 total += 1
                 date_str, task, status = match.groups()
