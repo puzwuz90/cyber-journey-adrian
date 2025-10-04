@@ -9,6 +9,8 @@ on:
 jobs:
   update-summary:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed for push
 
     steps:
       - name: Checkout repository
@@ -20,13 +22,12 @@ jobs:
           python-version: '3.x'
 
       - name: Run summary update script
-        run: |
-          python update_dashboard.py
+        run: python update_dashboard.py
 
-      - name: Commit updated summary
+      - name: Commit updated dashboard
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add coursework_summary.md
-          git commit -m 'Auto-update coursework summary'
+          git add coursework_dashboard.md
+          git commit -m 'Auto-update coursework dashboard' || echo "No changes to commit"
           git push
