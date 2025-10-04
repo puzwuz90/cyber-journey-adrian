@@ -56,3 +56,8 @@ with open(summary_file, 'w', encoding='utf-8') as f:
     f.write("|--------|-------------|-----------|----------|----------|\n")
     for course_name, total, completed, percent, next_due in progress_data:
         f.write(f"| {course_name} | {total} | {completed} | {percent} | {next_due} |\n")
+
+
+print("Dashboard contents:\n")
+with open(summary_file, 'r', encoding='utf-8') as f:
+    print(f.read())
