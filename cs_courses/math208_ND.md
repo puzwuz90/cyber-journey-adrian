@@ -46,3 +46,9 @@
 - Extension: one-time, +3 months if needed:contentReference[oaicite:5]{index=5}.  
 
 ---
+
+## Reminders
+- Memorize truth tables, in particular for implications
+
+
+---
