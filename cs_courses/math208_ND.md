@@ -20,7 +20,7 @@
 | Date       | Lesson / Exam                                          | Status |
 |------------|--------------------------------------------------------|--------|
 | Oct 5      | Lesson 1: Propositions and Logical Connectives         | [x]    |
-| Oct 9      | Lesson 2: Two Column Proofs and Predicates             | [ ]    |
+| Oct 9      | Lesson 2: Two Column Proofs and Predicates             | [x]    |
 | Oct 13     | Lesson 3: Arguments, Inference, & Basic Set Theory     | [ ]    |
 | Oct 17     | Lesson 4: Methods of Proof                             | [ ]    |
 | Oct 21     | Lesson 5: Relations                                    | [ ]    |
