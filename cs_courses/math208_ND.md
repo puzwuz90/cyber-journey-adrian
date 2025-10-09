@@ -49,6 +49,6 @@
 
 ## Reminders
 - Memorize truth tables, in particular for implications
-
+- Use the modus ponens when trying to do a Disjunctive form and Disjunctive Syllogism to make it more effecient
 
 ---
