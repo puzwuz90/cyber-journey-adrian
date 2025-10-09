@@ -2,9 +2,11 @@ name: Update Coursework Dashboard
 
 on:
   push:
+    branches:
+      - '**'
     paths:
-      - 'cs_courses/math208_ND.md'
-      - 'cs_courses/cs161_OSU.md'
+      - 'cs_courses/**/*.md'
+      - 'cs_courses/*.md'
   workflow_dispatch:
 
 jobs:
