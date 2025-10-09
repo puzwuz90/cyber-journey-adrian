@@ -33,3 +33,5 @@ jobs:
           git add cs_courses/coursework_dashboard.md
           git commit -m 'Auto-update coursework dashboard' || echo "No changes to commit"
           git push
+
+# refresh to re-register push trigger
