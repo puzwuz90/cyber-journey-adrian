@@ -32,6 +32,8 @@ jobs:
           git config --global user.email 'github-actions@github.com'
           git add cs_courses/coursework_dashboard.md
           git commit -m 'Auto-update coursework dashboard' || echo "No changes to commit"
+          git pull --rebase origin main
           git push
+
 
 # refresh to re-register push trigger
