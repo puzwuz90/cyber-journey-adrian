@@ -20,8 +20,8 @@
 | Oct 8      | Quiz 2                      | [x]    |
 | Oct 15     | Assignment 3                | [x]    |
 | Oct 15     | Quiz 3                      | [x]    |
-| Oct 22     | Assignment 4                | [ ]    |
-| Oct 22     | Quiz 4                      | [ ]    |
+| Oct 22     | Assignment 4                | [x]    |
+| Oct 22     | Quiz 4                      | [x]    |
 | Oct 29     | Assignment 5                | [ ]    |
 | Oct 29     | Quiz 5                      | [ ]    |
 | Oct 29     | Mid-term Survey             | [ ]    |
